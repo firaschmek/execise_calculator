@@ -24,6 +24,11 @@ public class Element {
 	public void setNumber(float number) {
 		this.number = number;
 	}
+
+	@Override
+	public String toString() {
+		return "Element [keyword=" + keyword + ", number=" + number + "]";
+	}
 	
 	
 	

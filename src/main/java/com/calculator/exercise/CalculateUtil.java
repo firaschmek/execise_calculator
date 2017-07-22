@@ -75,6 +75,7 @@ public class CalculateUtil {
 			}
 
 		}
+
 		return list_instruction;
 	}
 
