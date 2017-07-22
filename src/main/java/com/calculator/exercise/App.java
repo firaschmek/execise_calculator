@@ -16,12 +16,10 @@ import org.junit.runner.notification.Failure;
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-    	
-    	CalculateUtil calculateUtil=new CalculateUtil("Test2.txt");
-      System.out.println(calculateUtil.calculateTotal());	    	
-}
+public class App {
+	public static void main(String[] args) {
+
+		CalculateUtil calculateUtil = new CalculateUtil("Test2.txt");
+		System.out.println(calculateUtil.calculateTotal());
+	}
 }
